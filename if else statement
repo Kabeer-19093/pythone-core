@@ -1,0 +1,20 @@
+import math
+import os
+import random
+import re
+import sys
+
+
+
+if __name__ == '__main__':
+    n = int(input().strip())
+
+    if 1 <= n <= 100:         # base condition  for the given constrens .
+        if n % 2 != 0:        # checking odd or even numbers.
+            print("Weird")
+        elif 2 <= n <= 5:
+            print("Not Weird")     #checking for wierd or non wierd number . 
+        elif 6 <= n <= 20:
+            print("Weird")
+        else:                       #final checking system .
+            print("Not Weird")
